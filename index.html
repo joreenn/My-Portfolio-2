@@ -169,7 +169,7 @@
     }
     .hero-title {
       font-family: 'Syne', sans-serif;
-      font-size: clamp(2.6rem, 7vw, 3rem);
+      font-size: clamp(2.6rem, 7vw, 5.2rem);
       font-weight: 800;
       line-height: 1.05;
       letter-spacing: -0.03em;
@@ -599,9 +599,7 @@
       text-decoration: none;
       font-size: 0.88rem;
       font-weight: 500;
-      transition: color 0.2s;
     }
-    .contact-link:hover { color: var(--red); }
     .contact-link svg { width: 18px; height: 18px; fill: currentColor; flex-shrink: 0; }
     .contact-actions {
       display: flex;
@@ -725,12 +723,7 @@
       padding: 0.6rem 0.8rem;
       border-radius: 6px;
       border-left: 2px solid transparent;
-      transition: color 0.2s, background 0.2s, border-left-color 0.2s, padding-left 0.2s;
-    }
-    .contact-link:hover {
-      background: rgba(232,58,79,0.06);
-      border-left-color: var(--red);
-      padding-left: 1rem;
+      cursor: default;
     }
 
     /* Stat cards: faint glow on hover */
@@ -1092,19 +1085,19 @@
     <div class="contact-info reveal">
       
       <div class="contact-links">
-        
+        <span class="contact-link">
           <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
           j.montejo.543732@umindanao.edu.ph
-        </a>
-        <a href="https://github.com/joreenn" target="_blank" rel="noopener" class="contact-link">
+        </span>
+        <span class="contact-link">
           <svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.42 7.86 10.95.58.1.79-.25.79-.56 0-.27-.01-1-.01-1.97-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.52-2.55-.29-5.23-1.27-5.23-5.67 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.45.11-3.03 0 0 .96-.31 3.14 1.17a10.9 10.9 0 012.86-.38c.97.01 1.94.13 2.86.38 2.18-1.48 3.14-1.17 3.14-1.17.62 1.58.23 2.74.11 3.03.73.8 1.18 1.82 1.18 3.07 0 4.41-2.69 5.38-5.25 5.66.41.36.78 1.07.78 2.15 0 1.55-.01 2.8-.01 3.18 0 .31.21.67.8.56C20.22 21.41 23.5 17.1 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
           github.com/joreenn
-        </a>
+        </span>
         
-        <a href="tel:+639261101105" class="contact-link">
+        <span class="contact-link">
           <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
           09261101105
-        </a>
+        </span>
       </div>
     </div>
     <div class="contact-actions reveal">
